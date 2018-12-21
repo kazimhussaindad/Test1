@@ -1,0 +1,117 @@
+
+body {
+  background-image: linear-gradient( blue, lightgreen);
+  height: 720px;
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  float: left;
+
+}
+
+#header h1 {
+  text-align: center;
+  color: white;
+
+}
+
+#header h1 span {
+  color: coral;
+}
+
+#navigation a {
+    color: white;
+    text-align: center;
+    display: inline-table;
+    text-decoration: none;
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 1%;
+    height: 40px;
+}
+
+#navigation a:hover {
+    background-color: black;
+    font-size: 97%;
+    box-shadow: 1px 0 1px  1px white;
+    height: 40px;
+
+}
+
+#navigation {
+    width: 76%;
+    height: 44px;
+    background-color: #333333;
+    float: left;
+    margin-left: 12%;
+    font-size: 2em;
+    border-radius: 5px;
+    opacity: 0.5;
+
+}
+
+#navigation :hover {
+    height: 38px;
+}
+
+#clock {
+  float: left;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+
+}
+
+#clock img {
+  text-align: center;
+  
+  opacity: 0.8;
+}
+
+#clock #demo {
+  font-size: 2em;
+  color: white;
+
+}
+
+#clock h4 {
+  color: black;
+  font-size: 1em;
+}
+
+#snowflakeContainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+  color: white;
+}
+.snowflake {
+	padding-left: 15px;
+	font-family: Cambria, Georgia, serif;
+	font-size: 14px;
+	line-height: 24px;
+	position: fixed;
+	color: white;
+	user-select: none;
+	z-index: 1000;
+}
+.snowflake:hover {
+	cursor: default;
+  color: white;
+}
+
+#clock #tid #day {
+    text-align: left;
+    float: left;
+    width: 70%;
+    color: black;
+    font-size: 10px;
+    margin-left: 1%;
+    font-size: 1em;
+}
